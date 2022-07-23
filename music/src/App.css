@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+.player-music {
+    background-color: #0F172A !important;
+    height: 6rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* sét màu cho thời gian chạy */
+.rhap_time, .rhap_current-time {
+    color: white !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* đổi màu khi chọn chữ */
+::selection {
+    background-color: transparent;
+    color: turquoise;
+}
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(200, 211, 103);
+    border-radius: 10px;
   }
-}
