@@ -34,7 +34,7 @@ function ListSong() {
               }`}
               onClick={() => handleSongs(song.id)}
             >
-              <td className="w-[10%]">{index + 1}</td>
+              <td className="w-[10%] text-center">{index + 1}</td>
               <td className="text-center">{song.name}</td>
               <td className="text-center">{song.author}</td>
               <td className="text-center">
